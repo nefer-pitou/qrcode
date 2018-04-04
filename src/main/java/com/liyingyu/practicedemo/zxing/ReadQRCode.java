@@ -22,7 +22,7 @@ import java.io.IOException;
 public class ReadQRCode {
     public static void main(String[] args) throws IOException, NotFoundException {
         MultiFormatReader formatReader = new MultiFormatReader();
-        File file = new File("assets/b41270f3740e39f0e5e7cd488d256ad9_ocLcO2lheA==.jpg");
+        File file = new File("assets/myQrcode.png");
         BufferedImage image = ImageIO.read(file);
         BinaryBitmap binaryBitmap = new BinaryBitmap(new HybridBinarizer(new BufferedImageLuminanceSource(image)));
         Result result = formatReader.decode(binaryBitmap);
