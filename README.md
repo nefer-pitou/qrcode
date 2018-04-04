@@ -26,7 +26,7 @@
 ```
 ## 通过jquery-qrcode生成二维码
 
-- 从 [jquery-qrcode项目GitHub](https://github.com/jeromeetienne/jquery-qrcode)下载源码，解压后将其中的jquery.qrcode.min.js文件复制到自己的项目中，由于该js文件要依赖与jquery的js文件，所以也要将jquery-2.0.0.min.js文件复制到自己的项目中
+- 从 [jquery-qrcode项目GitHub](https://github.com/jeromeetienne/jquery-qrcode)下载源码，解压后将其中的jquery.qrcode.min.js文件复制到自己的项目中，由于该js文件要依赖于jquery的js文件，所以也要将jquery-2.0.0.min.js文件复制到自己的项目中
 ```
 <!DOCTYPE html>
 <html lang="en">
