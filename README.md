@@ -6,4 +6,4 @@
 
 ## 通过jQuery生成二维码
 
--[jQuery生成二维码](https://github.com/jeromeetienne/jquery-qrcode)
+- [jQuery生成二维码](https://github.com/jeromeetienne/jquery-qrcode)
