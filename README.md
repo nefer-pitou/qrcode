@@ -39,7 +39,7 @@
 <body>
     <div id="qrcode"></div><!-- 该div要位于下面的<script>之前-->
     <script type="text/javascript">
-        jQuery('#qrcode').qrcode("www.baidu.com");
+        jQuery('#qrcode').qrcode("www.baidu.com");<!--如果不是用浏览器进行扫描的话，扫出来的是www.baidu.com这个文本，而不是调到这个页面，改为http://www.baidu.com的话，扫描后自动跳转到页面-->
     </script>
 </body>
 </html>
