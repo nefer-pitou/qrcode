@@ -4,6 +4,7 @@
 
 ## 通过zxing方式生成二维码并进行解析
 - 在pom.xml文件中添加相关依赖：<br>
+```
     <dependency>
 	<groupId>com.google.zxing</groupId>
 	<artifactId>core</artifactId>
@@ -21,11 +22,11 @@
 	<artifactId>zxing-parent</artifactId>
 	<version>3.3.2</version>
     </dependency>
-
+```
 ## 通过jquery-qrcode生成二维码
 
 - 从 [jquery-qrcode项目GitHub](https://github.com/jeromeetienne/jquery-qrcode)下载源码，解压后将其中的jquery.qrcode.min.js文件复制到自己的项目中，由于该js文件要依赖与jquery的js文件，所以也要将jquery-2.0.0.min.js文件复制到自己的项目中
-
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,5 +42,5 @@
     </script>
 </body>
 </html>
-
+```
 
