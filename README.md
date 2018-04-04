@@ -1,24 +1,26 @@
-# 二维码图片生成和解析demo
+# 二维码图片生成和解析
+- 一种通过zxing来生成和解析二维码
+- 一种是通过jquery-qrcode脚本来生成二维码
 
 ## 通过zxing方式生成二维码并进行解析
-- 在pom.xml文件中添加相关依赖：
+- 在pom.xml文件中添加相关依赖：<br>
     <dependency>
-			<groupId>com.google.zxing</groupId>
-			<artifactId>core</artifactId>
-			<version>3.3.2</version>
-		</dependency>
+	<groupId>com.google.zxing</groupId>
+	<artifactId>core</artifactId>
+	<version>3.3.2</version>
+    </dependency>
 
-		<dependency>
-			<groupId>com.google.zxing</groupId>
-			<artifactId>javase</artifactId>
-			<version>3.3.2</version>
-		</dependency>
+    <dependency>
+	<groupId>com.google.zxing</groupId>
+	<artifactId>javase</artifactId>
+	<version>3.3.2</version>
+    </dependency>
 
-		<dependency>
-			<groupId>com.google.zxing</groupId>
-			<artifactId>zxing-parent</artifactId>
-			<version>3.3.2</version>
-		</dependency>
+    <dependency>
+	<groupId>com.google.zxing</groupId>
+	<artifactId>zxing-parent</artifactId>
+	<version>3.3.2</version>
+    </dependency>
 
 ## 通过jquery-qrcode生成二维码
 
