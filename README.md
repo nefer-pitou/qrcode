@@ -3,6 +3,7 @@
 - 一种是通过jquery-qrcode脚本来生成二维码
 
 ## 通过zxing方式生成二维码并进行解析
+- [zxing项目GitHub](https://github.com/zxing)
 - 在pom.xml文件中添加相关依赖：<br>
 ```
     <dependency>
